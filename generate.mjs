@@ -42,14 +42,13 @@ async function fetchDays() {
   return days;
 }
 
-// Classic "jet" colormap: dark blue -> blue -> cyan -> yellow -> red -> dark red
+// Professional green scale (GitHub-style), t in [0,1]
 function jet(t) {
-  const c = (x) => Math.max(0, Math.min(1, x));
-  const r = c(1.5 - Math.abs(4 * t - 3));
-  const g = c(1.5 - Math.abs(4 * t - 2));
-  const b = c(1.5 - Math.abs(4 * t - 1));
-  const h = (v) => Math.round(v * 255).toString(16).padStart(2, "0");
-  return `#${h(r)}${h(g)}${h(b)}`;
+  const stops = [[14, 68, 41], [0, 109, 50], [38, 166, 65], [57, 211, 83], [134, 239, 172]];
+  const x = Math.max(0, Math.min(1, t)) * (stops.length - 1);
+  const i = Math.min(stops.length - 2, Math.floor(x)), f = x - i;
+  const h = (v) => Math.round(v).toString(16).padStart(2, "0");
+  return "#" + [0, 1, 2].map((k) => h(stops[i][k] + (stops[i + 1][k] - stops[i][k]) * f)).join("");
 }
 
 function render(days) {
@@ -81,7 +80,7 @@ function render(days) {
   }
   top.forEach((d, i) => {
     const x = PADX + d.week * (CELL + GAP), y = PADY + d.day * (CELL + GAP);
-    o.push(`<rect class="ring" style="animation-delay:${(i * 0.4).toFixed(1)}s" x="${x}" y="${y}" width="${CELL}" height="${CELL}" rx="4" stroke="#22d3ee"/>`);
+    o.push(`<rect class="ring" style="animation-delay:${(i * 0.4).toFixed(1)}s" x="${x}" y="${y}" width="${CELL}" height="${CELL}" rx="4" stroke="#3fb950"/>`);
   });
   // legend
   const ly = H - 16;
