@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
 <style>.kw{fill:#ff7b72}.cls{fill:#ffa657}.fn{fill:#d2a8ff}.str{fill:#a5d6ff}.p{fill:#e6edf3}.com{fill:#8b949e}
 .k{fill:#79c0ff} .v{fill:#e6edf3} .d{fill:#6e7681} .h{fill:#d2a8ff;font-weight:700}
 .ln{opacity:0;animation:fade .4s ease forwards}
@@ -8,47 +8,53 @@
 .cur{animation:blink 1s step-end infinite}
 .dot{animation:pulse 2s ease-in-out infinite}
 </style>
-<rect x="1" y="1" width="998" height="418" rx="10" fill="#0d1117" stroke="#30363d"/>
+<rect x="1" y="1" width="998" height="498" rx="10" fill="#0d1117" stroke="#30363d"/>
 <line x1="1" y1="40" x2="999" y2="40" stroke="#30363d"/>
 <circle cx="22" cy="21" r="5.5" fill="#ff5f56"/>
 <circle cx="40" cy="21" r="5.5" fill="#ffbd2e"/>
 <circle cx="58" cy="21" r="5.5" fill="#27c93f"/>
 <text x="500.0" y="25" text-anchor="middle" font-size="12" fill="#8b949e">muhammad-hammad — ~/profile</text>
-<circle class="dot" cx="890" cy="21" r="4" fill="#3fb950"/>
-<text x="900" y="25" font-size="11" fill="#3fb950">online</text>
-<rect x="18" y="58" width="440" height="344" rx="6" fill="#161b22" stroke="#30363d"/>
+<circle class="dot" cx="840" cy="21" r="4" fill="#3fb950"/>
+<text x="850" y="25" font-size="11" fill="#3fb950">open to AI roles</text>
+<rect x="18" y="58" width="440" height="424" rx="6" fill="#161b22" stroke="#30363d"/>
 <text x="30" y="78" font-size="11" fill="#8b949e">about_me.py</text>
 <line x1="18" y1="88" x2="458" y2="88" stroke="#30363d"/>
-<rect x="472" y="58" width="510" height="344" rx="6" fill="#161b22" stroke="#30363d"/>
+<rect x="472" y="58" width="510" height="424" rx="6" fill="#161b22" stroke="#30363d"/>
 <text x="484" y="78" font-size="11" fill="#8b949e">profile.json</text>
 <line x1="472" y1="88" x2="982" y2="88" stroke="#30363d"/>
 <text class="ln" style="animation-delay:0.30s" font-size="12.5" xml:space="preserve"><tspan x="32" y="110" fill="#484f58"> 1</tspan><tspan x="62.0" y="110"><tspan class="kw">class </tspan><tspan class="cls">AIEngineer</tspan><tspan class="p">:</tspan></tspan></text>
-<text class="ln" style="animation-delay:0.42s" font-size="12.5" xml:space="preserve"><tspan x="32" y="128" fill="#484f58"> 2</tspan><tspan x="92.0" y="128"><tspan class="kw">def </tspan><tspan class="fn">__init__</tspan><tspan class="p">(self):</tspan></tspan></text>
-<text class="ln" style="animation-delay:0.54s" font-size="12.5" xml:space="preserve"><tspan x="32" y="146" fill="#484f58"> 3</tspan><tspan x="122.0" y="146"><tspan class="p">self.name  = </tspan><tspan class="str">&quot;Muhammad Hammad&quot;</tspan></tspan></text>
-<text class="ln" style="animation-delay:0.66s" font-size="12.5" xml:space="preserve"><tspan x="32" y="164" fill="#484f58"> 4</tspan><tspan x="122.0" y="164"><tspan class="p">self.role  = </tspan><tspan class="str">&quot;AI Engineer&quot;</tspan></tspan></text>
-<text class="ln" style="animation-delay:0.78s" font-size="12.5" xml:space="preserve"><tspan x="32" y="182" fill="#484f58"> 5</tspan><tspan x="122.0" y="182"><tspan class="p">self.stack = [</tspan><tspan class="str">&quot;Python&quot;</tspan><tspan class="p">, </tspan><tspan class="str">&quot;FastAPI&quot;</tspan><tspan class="p">,</tspan></tspan></text>
-<text class="ln" style="animation-delay:0.90s" font-size="12.5" xml:space="preserve"><tspan x="32" y="200" fill="#484f58"> 6</tspan><tspan x="212.0" y="200"><tspan class="str">&quot;LangChain&quot;</tspan><tspan class="p">, </tspan><tspan class="str">&quot;LangGraph&quot;</tspan><tspan class="p">]</tspan></tspan></text>
-<text class="ln" style="animation-delay:1.02s" font-size="12.5" xml:space="preserve"><tspan x="32" y="218" fill="#484f58"> 7</tspan><tspan x="122.0" y="218"><tspan class="p">self.focus = [</tspan><tspan class="str">&quot;Agentic workflows&quot;</tspan><tspan class="p">,</tspan></tspan></text>
-<text class="ln" style="animation-delay:1.14s" font-size="12.5" xml:space="preserve"><tspan x="32" y="236" fill="#484f58"> 8</tspan><tspan x="212.0" y="236"><tspan class="str">&quot;RAG pipelines&quot;</tspan><tspan class="p">,</tspan></tspan></text>
-<text class="ln" style="animation-delay:1.26s" font-size="12.5" xml:space="preserve"><tspan x="32" y="254" fill="#484f58"> 9</tspan><tspan x="212.0" y="254"><tspan class="str">&quot;Multi-agent systems&quot;</tspan><tspan class="p">]</tspan></tspan></text>
-<text class="ln" style="animation-delay:1.38s" font-size="12.5" xml:space="preserve"><tspan x="32" y="272" fill="#484f58">10</tspan><tspan x="62.0" y="272"></tspan></text>
-<text class="ln" style="animation-delay:1.50s" font-size="12.5" xml:space="preserve"><tspan x="32" y="290" fill="#484f58">11</tspan><tspan x="92.0" y="290"><tspan class="kw">def </tspan><tspan class="fn">build</tspan><tspan class="p">(self):</tspan></tspan></text>
-<text class="ln" style="animation-delay:1.62s" font-size="12.5" xml:space="preserve"><tspan x="32" y="308" fill="#484f58">12</tspan><tspan x="122.0" y="308"><tspan class="kw">return </tspan><tspan class="str">&quot;intelligent systems&quot;</tspan></tspan></text>
-<text class="ln" style="animation-delay:1.74s" font-size="12.5" xml:space="preserve"><tspan x="32" y="326" fill="#484f58">13</tspan><tspan x="62.0" y="326"></tspan></text>
-<text class="ln" style="animation-delay:1.86s" font-size="12.5" xml:space="preserve"><tspan x="32" y="344" fill="#484f58">14</tspan><tspan x="62.0" y="344"><tspan class="p">me = </tspan><tspan class="cls">AIEngineer</tspan><tspan class="p">()</tspan></tspan></text>
-<text class="ln" style="animation-delay:1.98s" font-size="12.5" xml:space="preserve"><tspan x="32" y="362" fill="#484f58">15</tspan><tspan x="62.0" y="362"><tspan class="p">me.</tspan><tspan class="fn">build</tspan><tspan class="p">()</tspan></tspan></text>
-<text class="ln" style="animation-delay:2.10s" font-size="12.5" xml:space="preserve"><tspan x="32" y="380" fill="#484f58">16</tspan><tspan x="62.0" y="380"><tspan class="com"># -&gt; &#x27;intelligent systems&#x27;</tspan></tspan></text>
-<text class="ln" style="animation-delay:2.22s" x="488" y="112" font-size="14"><tspan class="h">muhammad.hammad</tspan></text>
-<text class="ln" style="animation-delay:2.32s" x="488" y="131" font-size="12.5"><tspan class="k">Name</tspan><tspan class="d"> ......... </tspan><tspan class="v">Muhammad Hammad</tspan></text>
-<text class="ln" style="animation-delay:2.42s" x="488" y="150" font-size="12.5"><tspan class="k">Role</tspan><tspan class="d"> ......... </tspan><tspan class="v">Full-Stack Developer &amp; AI Engineer</tspan></text>
-<text class="ln" style="animation-delay:2.52s" x="488" y="169" font-size="12.5"><tspan class="k">Focus</tspan><tspan class="d"> ........ </tspan><tspan class="v">Agentic Workflows · RAG · Automation</tspan></text>
-<text class="ln" style="animation-delay:2.62s" x="488" y="188" font-size="12.5"><tspan class="k">Status</tspan><tspan class="d"> ....... </tspan><tspan class="v">Building • Learning • Shipping</tspan></text>
-<text class="ln" style="animation-delay:2.72s" x="488" y="215" font-size="12"><tspan class="k" font-weight="700">Tech Stack</tspan><tspan class="d"> ──────────────────────────────────────────────</tspan></text>
-<text class="ln" style="animation-delay:2.82s" x="488" y="234" font-size="12.5"><tspan class="k">Languages</tspan><tspan class="d"> .... </tspan><tspan class="v">Python, JavaScript, TypeScript</tspan></text>
-<text class="ln" style="animation-delay:2.92s" x="488" y="253" font-size="12.5"><tspan class="k">AI / Agents</tspan><tspan class="d"> .. </tspan><tspan class="v">LangChain, LangGraph, LangSmith</tspan></text>
-<text class="ln" style="animation-delay:3.02s" x="488" y="272" font-size="12.5"><tspan class="k">Backend</tspan><tspan class="d"> ...... </tspan><tspan class="v">FastAPI, REST APIs</tspan></text>
-<text class="ln" style="animation-delay:3.12s" x="488" y="291" font-size="12.5"><tspan class="k">Patterns</tspan><tspan class="d"> ..... </tspan><tspan class="v">RAG, Human-in-the-loop, Fan-in/out</tspan></text>
-<text class="ln" style="animation-delay:3.22s" x="488" y="318" font-size="12"><tspan class="k" font-weight="700">Contact</tspan><tspan class="d"> ──────────────────────────────────────────────</tspan></text>
-<text class="ln" style="animation-delay:3.32s" x="488" y="337" font-size="12.5"><tspan class="k">GitHub</tspan><tspan class="d"> ....... </tspan><tspan class="v">github.com/hammad-cloud</tspan></text>
-<g class="ln" style="animation-delay:3.42s"><text x="488" y="364" font-size="12.5"><tspan fill="#3fb950">❯ </tspan><tspan class="d">Contribution activity below ↓</tspan></text><rect class="cur" x="723.5" y="353" width="7" height="14" fill="#58a6ff"/></g>
+<text class="ln" style="animation-delay:0.42s" font-size="12.5" xml:space="preserve"><tspan x="32" y="130" fill="#484f58"> 2</tspan><tspan x="92.0" y="130"><tspan class="kw">def </tspan><tspan class="fn">__init__</tspan><tspan class="p">(self):</tspan></tspan></text>
+<text class="ln" style="animation-delay:0.54s" font-size="12.5" xml:space="preserve"><tspan x="32" y="150" fill="#484f58"> 3</tspan><tspan x="122.0" y="150"><tspan class="p">self.name  = </tspan><tspan class="str">&quot;Muhammad Hammad&quot;</tspan></tspan></text>
+<text class="ln" style="animation-delay:0.66s" font-size="12.5" xml:space="preserve"><tspan x="32" y="170" fill="#484f58"> 4</tspan><tspan x="122.0" y="170"><tspan class="p">self.role  = </tspan><tspan class="str">&quot;AI Engineer&quot;</tspan></tspan></text>
+<text class="ln" style="animation-delay:0.78s" font-size="12.5" xml:space="preserve"><tspan x="32" y="190" fill="#484f58"> 5</tspan><tspan x="122.0" y="190"><tspan class="p">self.base  = </tspan><tspan class="str">&quot;Karachi, PK&quot;</tspan></tspan></text>
+<text class="ln" style="animation-delay:0.90s" font-size="12.5" xml:space="preserve"><tspan x="32" y="210" fill="#484f58"> 6</tspan><tspan x="122.0" y="210"><tspan class="p">self.stack = [</tspan><tspan class="str">&quot;Python&quot;</tspan><tspan class="p">, </tspan><tspan class="str">&quot;FastAPI&quot;</tspan><tspan class="p">,</tspan></tspan></text>
+<text class="ln" style="animation-delay:1.02s" font-size="12.5" xml:space="preserve"><tspan x="32" y="230" fill="#484f58"> 7</tspan><tspan x="212.0" y="230"><tspan class="str">&quot;LangGraph&quot;</tspan><tspan class="p">, </tspan><tspan class="str">&quot;PostgreSQL&quot;</tspan><tspan class="p">,</tspan></tspan></text>
+<text class="ln" style="animation-delay:1.14s" font-size="12.5" xml:space="preserve"><tspan x="32" y="250" fill="#484f58"> 8</tspan><tspan x="212.0" y="250"><tspan class="str">&quot;React&quot;</tspan><tspan class="p">, </tspan><tspan class="str">&quot;Next.js&quot;</tspan><tspan class="p">]</tspan></tspan></text>
+<text class="ln" style="animation-delay:1.26s" font-size="12.5" xml:space="preserve"><tspan x="32" y="270" fill="#484f58"> 9</tspan><tspan x="122.0" y="270"><tspan class="p">self.focus = [</tspan><tspan class="str">&quot;Agentic workflows&quot;</tspan><tspan class="p">,</tspan></tspan></text>
+<text class="ln" style="animation-delay:1.38s" font-size="12.5" xml:space="preserve"><tspan x="32" y="290" fill="#484f58">10</tspan><tspan x="212.0" y="290"><tspan class="str">&quot;RAG pipelines&quot;</tspan><tspan class="p">,</tspan></tspan></text>
+<text class="ln" style="animation-delay:1.50s" font-size="12.5" xml:space="preserve"><tspan x="32" y="310" fill="#484f58">11</tspan><tspan x="212.0" y="310"><tspan class="str">&quot;Multi-agent systems&quot;</tspan><tspan class="p">]</tspan></tspan></text>
+<text class="ln" style="animation-delay:1.62s" font-size="12.5" xml:space="preserve"><tspan x="32" y="330" fill="#484f58">12</tspan><tspan x="62.0" y="330"></tspan></text>
+<text class="ln" style="animation-delay:1.74s" font-size="12.5" xml:space="preserve"><tspan x="32" y="350" fill="#484f58">13</tspan><tspan x="92.0" y="350"><tspan class="kw">def </tspan><tspan class="fn">build</tspan><tspan class="p">(self, problem):</tspan></tspan></text>
+<text class="ln" style="animation-delay:1.86s" font-size="12.5" xml:space="preserve"><tspan x="32" y="370" fill="#484f58">14</tspan><tspan x="122.0" y="370"><tspan class="kw">return </tspan><tspan class="fn">ship</tspan><tspan class="p">(</tspan><tspan class="fn">agent</tspan><tspan class="p">(problem))</tspan></tspan></text>
+<text class="ln" style="animation-delay:1.98s" font-size="12.5" xml:space="preserve"><tspan x="32" y="390" fill="#484f58">15</tspan><tspan x="62.0" y="390"></tspan></text>
+<text class="ln" style="animation-delay:2.10s" font-size="12.5" xml:space="preserve"><tspan x="32" y="410" fill="#484f58">16</tspan><tspan x="62.0" y="410"><tspan class="p">me = </tspan><tspan class="cls">AIEngineer</tspan><tspan class="p">()</tspan></tspan></text>
+<text class="ln" style="animation-delay:2.22s" font-size="12.5" xml:space="preserve"><tspan x="32" y="430" fill="#484f58">17</tspan><tspan x="62.0" y="430"><tspan class="p">me.</tspan><tspan class="fn">build</tspan><tspan class="p">(</tspan><tspan class="str">&quot;real-world automation&quot;</tspan><tspan class="p">)</tspan></tspan></text>
+<text class="ln" style="animation-delay:2.34s" font-size="12.5" xml:space="preserve"><tspan x="32" y="450" fill="#484f58">18</tspan><tspan x="62.0" y="450"><tspan class="com"># -&gt; production-ready AI systems</tspan></tspan></text>
+<text class="ln" style="animation-delay:2.46s" x="488" y="112" font-size="14"><tspan class="h">muhammad.hammad</tspan></text>
+<text class="ln" style="animation-delay:2.56s" x="488" y="131" font-size="12.5"><tspan class="k">Name</tspan><tspan class="d"> ......... </tspan><tspan class="v">Muhammad Hammad</tspan></text>
+<text class="ln" style="animation-delay:2.66s" x="488" y="150" font-size="12.5"><tspan class="k">Role</tspan><tspan class="d"> ......... </tspan><tspan class="v">Full-Stack Developer &amp; AI Engineer</tspan></text>
+<text class="ln" style="animation-delay:2.76s" x="488" y="169" font-size="12.5"><tspan class="k">Focus</tspan><tspan class="d"> ........ </tspan><tspan class="v">Agentic AI · RAG · Workflow Automation</tspan></text>
+<text class="ln" style="animation-delay:2.86s" x="488" y="188" font-size="12.5"><tspan class="k">Building</tspan><tspan class="d"> ..... </tspan><tspan class="v">Ordyn, a Roman Urdu WhatsApp order agent</tspan></text>
+<text class="ln" style="animation-delay:2.96s" x="488" y="207" font-size="12.5"><tspan class="k">Highlights</tspan><tspan class="d"> ... </tspan><tspan class="v">Saylani Hackathon · 2 live deployments</tspan></text>
+<text class="ln" style="animation-delay:3.06s" x="488" y="234" font-size="12"><tspan class="k" font-weight="700">Tech Stack</tspan><tspan class="d"> ──────────────────────────────────────────────</tspan></text>
+<text class="ln" style="animation-delay:3.16s" x="488" y="253" font-size="12.5"><tspan class="k">Languages</tspan><tspan class="d"> .... </tspan><tspan class="v">Python, TypeScript, JavaScript</tspan></text>
+<text class="ln" style="animation-delay:3.26s" x="488" y="272" font-size="12.5"><tspan class="k">AI / Agents</tspan><tspan class="d"> .. </tspan><tspan class="v">LangChain, LangGraph, LangSmith, Gemini</tspan></text>
+<text class="ln" style="animation-delay:3.36s" x="488" y="291" font-size="12.5"><tspan class="k">Backend</tspan><tspan class="d"> ...... </tspan><tspan class="v">FastAPI, Node.js, Express, REST APIs</tspan></text>
+<text class="ln" style="animation-delay:3.46s" x="488" y="310" font-size="12.5"><tspan class="k">Frontend</tspan><tspan class="d"> ..... </tspan><tspan class="v">React, Next.js, Tailwind, Streamlit</tspan></text>
+<text class="ln" style="animation-delay:3.56s" x="488" y="329" font-size="12.5"><tspan class="k">Data</tspan><tspan class="d"> ......... </tspan><tspan class="v">PostgreSQL, MongoDB, ChromaDB, pgvector</tspan></text>
+<text class="ln" style="animation-delay:3.66s" x="488" y="348" font-size="12.5"><tspan class="k">DevOps</tspan><tspan class="d"> ....... </tspan><tspan class="v">Docker, GitHub Actions, Vercel</tspan></text>
+<text class="ln" style="animation-delay:3.76s" x="488" y="367" font-size="12.5"><tspan class="k">Patterns</tspan><tspan class="d"> ..... </tspan><tspan class="v">RAG, Human-in-the-loop, Fan-in/out</tspan></text>
+<text class="ln" style="animation-delay:3.86s" x="488" y="394" font-size="12"><tspan class="k" font-weight="700">Contact</tspan><tspan class="d"> ──────────────────────────────────────────────</tspan></text>
+<text class="ln" style="animation-delay:3.96s" x="488" y="413" font-size="12.5"><tspan class="k">GitHub</tspan><tspan class="d"> ....... </tspan><tspan class="v">github.com/hammad-cloud</tspan></text>
+<g class="ln" style="animation-delay:4.06s"><text x="488" y="440" font-size="12.5"><tspan fill="#3fb950">❯ </tspan><tspan class="d">Featured projects below ↓</tspan></text><rect class="cur" x="693.5" y="429" width="7" height="14" fill="#58a6ff"/></g>
 </svg>
