@@ -10,37 +10,43 @@ CODE = [
     (1, [("kw", "def "), ("fn", "__init__"), ("p", "(self):")]),
     (2, [("p", "self.name  = "), ("str", '"Muhammad Hammad"')]),
     (2, [("p", "self.role  = "), ("str", '"AI Engineer"')]),
+    (2, [("p", "self.base  = "), ("str", '"Karachi, PK"')]),
     (2, [("p", "self.stack = ["), ("str", '"Python"'), ("p", ", "), ("str", '"FastAPI"'), ("p", ",")]),
-    (5, [("str", '"LangChain"'), ("p", ", "), ("str", '"LangGraph"'), ("p", "]")]),
+    (5, [("str", '"LangGraph"'), ("p", ", "), ("str", '"PostgreSQL"'), ("p", ",")]),
+    (5, [("str", '"React"'), ("p", ", "), ("str", '"Next.js"'), ("p", "]")]),
     (2, [("p", "self.focus = ["), ("str", '"Agentic workflows"'), ("p", ",")]),
     (5, [("str", '"RAG pipelines"'), ("p", ",")]),
     (5, [("str", '"Multi-agent systems"'), ("p", "]")]),
     (0, []),
-    (1, [("kw", "def "), ("fn", "build"), ("p", "(self):")]),
-    (2, [("kw", "return "), ("str", '"intelligent systems"')]),
+    (1, [("kw", "def "), ("fn", "build"), ("p", "(self, problem):")]),
+    (2, [("kw", "return "), ("fn", "ship"), ("p", "("), ("fn", "agent"), ("p", "(problem))")]),
     (0, []),
     (0, [("p", "me = "), ("cls", "AIEngineer"), ("p", "()")]),
-    (0, [("p", "me."), ("fn", "build"), ("p", "()")]),
-    (0, [("com", "# -> 'intelligent systems'")]),
+    (0, [("p", "me."), ("fn", "build"), ("p", "("), ("str", '"real-world automation"'), ("p", ")")]),
+    (0, [("com", "# -> production-ready AI systems")]),
 ]
 
 INFO = [
     ("head", "muhammad.hammad"),
     ("kv", "Name", "Muhammad Hammad"),
     ("kv", "Role", "Full-Stack Developer & AI Engineer"),
-    ("kv", "Focus", "Agentic Workflows · RAG · Automation"),
-    ("kv", "Status", "Building • Learning • Shipping"),
+    ("kv", "Focus", "Agentic AI · RAG · Workflow Automation"),
+    ("kv", "Building", "Ordyn, a Roman Urdu WhatsApp order agent"),
+    ("kv", "Highlights", "Saylani Hackathon · 2 live deployments"),
     ("gap",),
     ("sec", "Tech Stack"),
-    ("kv", "Languages", "Python, JavaScript, TypeScript"),
-    ("kv", "AI / Agents", "LangChain, LangGraph, LangSmith"),
-    ("kv", "Backend", "FastAPI, REST APIs"),
+    ("kv", "Languages", "Python, TypeScript, JavaScript"),
+    ("kv", "AI / Agents", "LangChain, LangGraph, LangSmith, Gemini"),
+    ("kv", "Backend", "FastAPI, Node.js, Express, REST APIs"),
+    ("kv", "Frontend", "React, Next.js, Tailwind, Streamlit"),
+    ("kv", "Data", "PostgreSQL, MongoDB, ChromaDB, pgvector"),
+    ("kv", "DevOps", "Docker, GitHub Actions, Vercel"),
     ("kv", "Patterns", "RAG, Human-in-the-loop, Fan-in/out"),
     ("gap",),
     ("sec", "Contact"),
     ("kv", "GitHub", "github.com/hammad-cloud"),
     ("gap",),
-    ("cursor", "Contribution activity below ↓"),
+    ("cursor", "Featured projects below ↓"),
 ]
 
 THEMES = {
@@ -54,9 +60,9 @@ THEMES = {
                   kw="#cf222e", cls="#953800", fn="#8250df", str="#0a3069", p="#1f2328", com="#6e7781", ln="#8c959f"),
 }
 
-W, H = 1000, 420
-LX, LY, LW, LH = 18, 58, 440, 344
-RX, RY, RW, RH = 472, 58, 510, 344
+W, H = 1000, 500
+LX, LY, LW, LH = 18, 58, 440, 424
+RX, RY, RW, RH = 472, 58, 510, 424
 
 
 def build(theme: str) -> str:
@@ -78,8 +84,8 @@ def build(theme: str) -> str:
     for i, c in enumerate(["#ff5f56", "#ffbd2e", "#27c93f"]):
         o.append(f'<circle cx="{22 + i*18}" cy="21" r="5.5" fill="{c}"/>')
     o.append(f'<text x="{W/2}" y="25" text-anchor="middle" font-size="12" fill="{t["title"]}">muhammad-hammad — ~/profile</text>')
-    o.append(f'<circle class="dot" cx="{W-110}" cy="21" r="4" fill="{t["green"]}"/>')
-    o.append(f'<text x="{W-100}" y="25" font-size="11" fill="{t["green"]}">online</text>')
+    o.append(f'<circle class="dot" cx="{W-160}" cy="21" r="4" fill="{t["green"]}"/>')
+    o.append(f'<text x="{W-150}" y="25" font-size="11" fill="{t["green"]}">open to AI roles</text>')
 
     for x, y, w, h, label in [(LX, LY, LW, LH, "about_me.py"), (RX, RY, RW, RH, "profile.json")]:
         o.append(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="6" fill="{t["panel"]}" stroke="{t["border2"]}"/>')
@@ -94,7 +100,7 @@ def build(theme: str) -> str:
         o.append(f'<text class="ln" {st} font-size="12.5" xml:space="preserve">'
                  f'<tspan x="{LX+14}" y="{y}" fill="{t["ln"]}">{n:>2}</tspan>'
                  f'<tspan x="{LX+44 + ind*4*7.5:.1f}" y="{y}">{parts}</tspan></text>')
-        y += 18
+        y += 20
         delay += 0.12
 
     # info panel
