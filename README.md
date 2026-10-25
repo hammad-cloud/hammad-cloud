@@ -19,12 +19,15 @@
 
 | Project | What it is | Stack |
 |---|---|---|
-| [orderops-AI](https://github.com/hammad-cloud/orderops-AI) | AI agent for e-commerce order operations | TypeScript |
-| [LangGraph-Code-Auditor](https://github.com/hammad-cloud/LangGraph-Code-Auditor) | Code-auditing agent built with LangGraph | Python · LangGraph |
-| [multi-agent-job-search](https://github.com/hammad-cloud/multi-agent-job-search) | Multi-agent system for job search | Python |
-| [RAG-chat-bot](https://github.com/hammad-cloud/RAG-chat-bot) | Retrieval-augmented chatbot over custom documents | Python · RAG |
-| [General-Ledger-Anomaly](https://github.com/hammad-cloud/General-Ledger-Anomaly---Fraud-Detection--Audit---Risk-.) | Anomaly & fraud detection for general-ledger audit and risk | Python |
-| [fan-in-and-fan-out-concept](https://github.com/hammad-cloud/fan-in-and-fan-out-concept) | Parallel agent execution with fan-in / fan-out | Python · LangGraph |
+| [OrderOps AI](https://github.com/hammad-cloud/orderops-AI) | Autonomous order triage agent: fraud scoring, inventory checks, out-of-stock negotiation and refunds, with role-based access and a hash-chained audit trail | FastAPI · LangGraph · PostgreSQL · Next.js |
+| [HCM Lite](https://github.com/hammad-cloud/saylani-project) | AI-assisted HR platform for attendance, leave and payroll, with a scoped AI assistant and face + GPS check-in. Built for the Saylani Hackathon · [Live](https://hcm-lite-one.vercel.app) | React · Express · MongoDB · Gemini |
+| [HR Copilot](https://github.com/hammad-cloud/HR-AUTOMATE) | Permission-aware AI assistant for a multi-tenant HRMS, with tenant isolation enforced by Postgres row-level security | FastAPI · Next.js · PostgreSQL · pgvector |
+| [Ordyn](https://github.com/hammad-cloud/ordyn-AI-) | Roman Urdu WhatsApp agent for COD order confirmation, cancellations and refunds for small Pakistani sellers | FastAPI · React · PostgreSQL |
+| [Multi-Agent Job Search](https://github.com/hammad-cloud/JOB-SEARCH-MULTI-AGENT) | Agent pipeline that turns a resume into ranked job matches, company briefs and cover-letter drafts | Python · Streamlit · Adzuna API |
+| [RAG Chatbot](https://github.com/hammad-cloud/RAG-chat-bot) | Q&A over uploaded PDF, DOCX and TXT files, citing the source document and page for every answer | FastAPI · ChromaDB · Gemini · Streamlit |
+| [SastaScan](https://github.com/hammad-cloud/fan-in-and-fan-out-concept) | Price comparison across 46 Pakistani online stores using parallel fan-out / fan-in search · [Live](https://sastascan-pk.vercel.app) | React · Node.js · Express · Vercel |
+| [LangGraph Code Auditor](https://github.com/hammad-cloud/LangGraph-Code-Auditor) | Sequential multi-agent pipeline that audits, refactors and documents Python code | LangGraph · Gemini · Streamlit |
+| [LedgerGuard](https://github.com/hammad-cloud/General-Ledger-Anomaly---Fraud-Detection--Audit---Risk-.) | Explainable general-ledger anomaly detection with Isolation Forest risk scores and SHAP explanations | Python · scikit-learn · SHAP · Streamlit |
 
 ### Contribution Activity
 
